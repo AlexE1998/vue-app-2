@@ -1,9 +1,13 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Accueil</router-link> |
+      <router-link to="/catalogue">Catalogue</router-link> |
+      <router-link to="/ban">Liste TCG Ban Card </router-link> |
+      <router-link to="/deck">Mon deck</router-link>
+    </div>
+    <router-view/>
   </div>
-  <router-view/>
 </template>
 
 <style>
