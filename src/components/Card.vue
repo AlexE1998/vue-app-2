@@ -35,13 +35,13 @@
           <h4>Attribut:</h4> {{card[0].attribute}}
         </div>
         <div class="card_detailsRight">
-          <h4>Prix actuel sur le marché : </h4> {{card[0].card_prices[0].cardmarket_price}}
+          <h4>Prix actuel sur le marché : </h4> {{card[0].card_prices[0].cardmarket_price}} $
         </div>
         <div class="card_detailsRight">
-          <h4>Prix actuel sur Amazon : </h4> {{card[0].card_prices[0].amazon_price}}
+          <h4>Prix actuel sur Amazon : </h4> {{card[0].card_prices[0].amazon_price}} $
         </div>
         <div class="card_detailsRight">
-          <h4>Prix actuel sur Ebay : </h4> {{card[0].card_prices[0].ebay_price}}
+          <h4>Prix actuel sur Ebay : </h4> {{card[0].card_prices[0].ebay_price}} $
         </div>
       </div>
     </div>
