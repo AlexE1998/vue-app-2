@@ -21,7 +21,11 @@
           <h4>Defense:</h4> {{card[0].def}}
         </div>
         <div class="card_detailsRight">
-          <h4>Niveau:</h4> {{card[0].level}}
+          <h4>Niveau:</h4> {{card[0].level}}<img
+              src="https://ygoprodeck.com/wp-content/uploads/2017/01/level.png"
+              width="20"
+              height="20"
+            />
         </div>
         <div class="card_detailsRight">
           <h4>Race:</h4> {{card[0].race}}
