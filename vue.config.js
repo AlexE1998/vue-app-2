@@ -2,5 +2,7 @@
 // vue.config.js
 // vue.config.js
 module.exports = {
-    publicPath: '‘/vue-app-2/'
-    }
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/vue-app-2/'
+      : '/'
+  }
